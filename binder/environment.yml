@@ -9,3 +9,4 @@ dependencies:
   - ilastik-dependencies-no-solvers
   - ilastik-meta
   - ipywidgets
+  - zarr
