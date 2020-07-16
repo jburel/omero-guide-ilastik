@@ -1,3 +1,9 @@
+0.2.0 (July 2020)
+----------------
+
+- Improve documentation
+- Improve display of output result in idr notebook
+
 0.1.0 (May 2020)
 ----------------
 

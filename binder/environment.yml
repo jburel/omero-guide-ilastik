@@ -12,3 +12,4 @@ dependencies:
   - dask  # for scripts reading from S3
   - pip:
     - itkwidgets
+    
