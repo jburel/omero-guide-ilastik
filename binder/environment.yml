@@ -5,7 +5,7 @@ channels:
 dependencies:
   - omero-py
   - pip
-  - ilastik-dependencies-no-solvers==1.4
+  - ilastik-dependencies-no-solvers
   - ilastik-meta==1.4.0b5
   - ipywidgets
   - zarr  # for scripts reading from S3
