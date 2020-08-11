@@ -7,7 +7,7 @@ language: python
 sudo: false
 
 # https://docs.travis-ci.com/user/caching/
-cache: pip
+#cache: pip
 
 env:
   - SPHINXOPTS="-W"
@@ -18,7 +18,7 @@ install:
   - pip install --upgrade flake8
 
 script:
-  - repo2docker --no-run .
+  #- repo2docker --no-run .
   - flake8 scripts
   - cd docs
   - make clean html linkcheck
