@@ -31,7 +31,7 @@ Resources
 We will use an ilastik project created with ilastik version 1.3.3 to analyze 3D images of mouse blastocysts from the Image Data Resource (IDR).
 
 - :download:`ilastik model <../notebooks/pipelines/pixel-class-133.ilp>`.
-- Images from IDR `idr0062 <https://idr.openmicroscopy.org/webclient/?show=project-801>`_.
+- Images from IDR `idr0062 <https://idr.openmicroscopy.org/search/?query=Name:idr0062>`_.
 
 For convenience, the IDR data have been imported into the training
 OMERO.server. This is **only** because we **cannot** save results back to IDR

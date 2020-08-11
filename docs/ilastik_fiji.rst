@@ -48,7 +48,7 @@ not necessarily alphabetically ordered.
 Resources
 ---------
 
--  Images from IDR `idr0062 <https://idr.openmicroscopy.org/webclient/?show=project-801>`_.
+-  Images from IDR `idr0062 <https://idr.openmicroscopy.org/search/?query=Name:idr0062>`_.
 
 Step-by-step
 ------------
@@ -64,7 +64,7 @@ Manual training of z-stack segmentation in ilastik
 
 #.  Select a local directory to export to and save the image locally as an ``.h5`` file.
 
-#.  Repeat this step with several images from the `Blastocysts Dataset <https://idr.openmicroscopy.org/webclient/?show=dataset-7754>`_ of idr0062.
+#.  Repeat this step with several images from the `Blastocysts Dataset <https://idr.openmicroscopy.org/search/?query=Name:idr0062>`_ of idr0062.
 
 #.  Start ilastik.
 

@@ -44,7 +44,7 @@ not necessarily alphabetically ordered.
 Resources
 ---------
 
--  Images from IDR `idr0062 <https://idr.openmicroscopy.org/webclient/?show=project-801>`_.
+-  Images from IDR `idr0062 <https://idr.openmicroscopy.org/search/?query=Name:idr0062>`_.
 
 -  Groovy script :download:`analyse_dataset_ilastik.groovy <../scripts/analyse_dataset_ilastik.groovy>`
 
