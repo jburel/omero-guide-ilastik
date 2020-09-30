@@ -13,12 +13,24 @@ env:
   - SPHINXOPTS="-W"
 
 install:
-  - pip install --upgrade jupyter-repo2docker
+  - wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
+  - bash miniconda.sh -b -p $HOME/miniconda
+  - export PATH="$HOME/miniconda/bin:$PATH"
+  - conda config --set always_yes yes --set changeps1 no
+  - conda update conda
+
+  # Install dependencies
+  - conda env create -n test -f binder/environment.yml
+  - source activate test
+  - pip install --upgrade nbval
+  - pip install --upgrade pytest
   - pip install --upgrade sphinx
   - pip install --upgrade flake8
 
 script:
-  - repo2docker --no-run .
+  - set -e
+  - source activate test
   - flake8 scripts
+  - pytest --nbval-lax notebooks/pixel_classification.ipynb
   - cd docs
   - make clean html linkcheck
