@@ -102,7 +102,7 @@ def disconnect(conn):
 def main():
     try:
         # Collect user credentials
-        host = 'idr.openmicroscopy.org'  # noqa
+        host = 'ws://idr.openmicroscopy.org/omero-ws'  # noqa
         username = 'public'
         password = 'public'
         dataset_id = '7754'
